@@ -1,0 +1,7 @@
+# Set EOL to LF for all text files
+* text  eol=lf
+
+# Set EOL to CRLF for Windows-specific files
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
